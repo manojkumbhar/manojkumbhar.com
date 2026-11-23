@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.site-data/
+site-data/
+content/private/
+private-data/
+.env
+.env.*
+!.env.example
+.vercel
+*.log
+.DS_Store

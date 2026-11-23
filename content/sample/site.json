@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "title": "Alex Sample — Example maker. Placeholder site.",
+    "description": "Fictional sample profile used to preview this personal-site template. Not a real person.",
+    "language": "en",
+    "footerTagline": "Sample data · not a real person",
+    "themeStorageKey": "sample-theme",
+    "crumb": {
+      "handle": "alexsample",
+      "suffix": "example"
+    }
+  },
+  "profile": {
+    "name": "Alex Sample",
+    "portrait": "portrait.jpg",
+    "portraitAlt": "Flat placeholder illustration of a fictional person, labeled SAMPLE",
+    "sidebarTagline": "Placeholder profile · Example City",
+    "status": "Example lead // Example City",
+    "headline": "Example maker.",
+    "headlineEmphasis": "Placeholder site.",
+    "prompt": "> idea → placeholder → a page you can click",
+    "intro": "I'm Alex Sample, a fictional stand-in who lives in Example City. Every sentence here is sample copy so the layout can be previewed before a private content repo is connected.",
+    "locationShort": "Example City",
+    "locationCode": "EXAMPLE CITY"
+  },
+  "navigation": [
+    { "id": "top", "label": "Home", "icon": "home" },
+    { "id": "now", "label": "Now", "icon": "now" },
+    { "id": "notes", "label": "Notes", "icon": "notes" },
+    { "id": "projects", "label": "Projects", "icon": "projects" },
+    { "id": "about", "label": "About", "icon": "about" },
+    { "id": "beyond", "label": "Beyond work", "icon": "beyond" },
+    { "id": "experience", "label": "Experience", "icon": "experience" },
+    { "id": "contact", "label": "Contact", "icon": "contact" }
+  ],
+  "topMenu": [
+    { "href": "#projects", "label": "Projects" },
+    { "href": "#notes", "label": "Notes" },
+    { "href": "#now", "label": "Now" },
+    { "href": "#about", "label": "About" },
+    { "href": "#contact", "label": "Contact" }
+  ],
+  "social": [
+    {
+      "icon": "mail",
+      "label": "Email",
+      "ariaLabel": "Email",
+      "title": "alex.sample@example.com",
+      "href": "mailto:alex.sample@example.com",
+      "short": "alex.sample@example.com"
+    },
+    {
+      "icon": "linkedin",
+      "label": "LinkedIn",
+      "ariaLabel": "LinkedIn",
+      "title": "LinkedIn",
+      "href": "https://example.com/in/alex-sample",
+      "short": "in/alex-sample"
+    },
+    {
+      "icon": "github",
+      "label": "GitHub",
+      "ariaLabel": "GitHub",
+      "title": "GitHub",
+      "href": "https://example.com/alex-sample",
+      "short": "example/alex-sample"
+    },
+    {
+      "icon": "x",
+      "label": "X",
+      "ariaLabel": "X, @alexsample",
+      "title": "@alexsample",
+      "href": "https://example.com/alexsample",
+      "short": "@alexsample"
+    }
+  ],
+  "now": {
+    "tag": "NOW",
+    "banner": "Filling this strip with placeholder plans",
+    "month": "NOV 2026 · SAMPLE DATA",
+    "lead": {
+      "label": "This month",
+      "value": "What this sample is showing",
+      "linkLabel": "All projects →",
+      "href": "#projects"
+    },
+    "cards": [
+      {
+        "label": "Building",
+        "value": "Sample Dashboard",
+        "note": "A pretend board of ideas and todos"
+      },
+      {
+        "label": "Alongside",
+        "value": "Paper Prototype",
+        "note": "A fictional collaboration on a card"
+      },
+      {
+        "label": "Learning",
+        "value": "Ukulele",
+        "note": "A hobby invented for this sample"
+      },
+      {
+        "label": "Out this year",
+        "value": "Glass Lake Loop",
+        "note": "Illustrated trip, not a real ride"
+      }
+    ]
+  },
+  "cta": [
+    { "href": "#projects", "label": "See the sample", "style": "solid" },
+    { "href": "#contact", "label": ">_ Say hello", "style": "ghost" }
+  ],
+  "heroTrip": {
+    "kicker": "Beyond work",
+    "stats": [
+      { "value": "Glass Lake Loop", "label": "sample ride" },
+      { "value": "2019 · 2024", "label": "rides" }
+    ]
+  },
+  "explore": {
+    "kicker": "Explore",
+    "title": "Work, notes and the rest",
+    "lede": "Everything on this preview is fictional sample copy. Swap in your own site.json and the same layout fills with your words.",
+    "cards": [
+      {
+        "href": "#projects",
+        "tag": "Builds",
+        "count": "4",
+        "title": "Projects",
+        "text": "Four made-up projects, each told as a problem, a thing that was made, and who uses it.",
+        "action": "View projects"
+      },
+      {
+        "href": "#notes",
+        "tag": "Learning",
+        "count": "soon",
+        "title": "Notes",
+        "text": "The notes panel is an empty state in this sample. Your data file supplies the sentence.",
+        "action": "View notes"
+      },
+      {
+        "href": "#beyond",
+        "tag": "Off the clock",
+        "count": "6",
+        "title": "Beyond work",
+        "text": "Ukulele, table tennis, illustrated rides, window herbs, and other placeholder hobbies.",
+        "action": "View interests"
+      },
+      {
+        "href": "#experience",
+        "tag": "Since 2014",
+        "count": "5",
+        "title": "Experience",
+        "text": "Five fictional employers, from a junior example role to a sample lead.",
+        "action": "View timeline"
+      }
+    ]
+  },
+  "notes": {
+    "kicker": "Latest",
+    "title": "Notes, as I learn",
+    "lede": "This lede is placeholder copy. A real content file would describe how notes get written, in the owner's own words.",
+    "empty": "No sample notes yet. This panel is the empty state."
+  },
+  "about": {
+    "kicker": "About",
+    "title": "A little about me",
+    "prompt": "> about.read()",
+    "paragraphs": [
+      "Alex Sample is not a real person. This paragraph exists so the about panel has the same shape as a finished site: a short bio, then a second paragraph for credentials you actually hold.",
+      "In this sample, Alex finished an invented Example Certificate in May 2024 at Fictional Academy. Replace both paragraphs with your own."
+    ],
+    "howPrompt": "> how_i_work",
+    "how": [
+      "I start from a made-up brief, then I fill the page from a JSON file.",
+      "The idea matters more than the placeholder tools named Pencil, Notebook, and Lamp.",
+      "I show other people the same sample files I used to preview the layout.",
+      "At the imaginary office I turn sample problems into sample tools."
+    ]
+  },
+  "projects": {
+    "kicker": "Projects",
+    "title": "Things I've made",
+    "lede": "These four projects are fiction. They show the two-column story grid, status chips, and the optional sum widget.",
+    "items": [
+      {
+        "title": "Sample Dashboard",
+        "status": "In progress · open source",
+        "statusKind": "prog",
+        "facts": [
+          { "label": "The problem", "text": "The sample person wanted one pretend place for ideas, plans, and todos." },
+          { "label": "What I made", "text": "A dashboard drawn with placeholder boxes. Nothing here syncs to a real account." },
+          { "label": "How it's used", "text": "Only as a layout example inside this template." }
+        ]
+      },
+      {
+        "title": "Place Value Toy",
+        "status": "Built · sample widget",
+        "statusKind": "built",
+        "facts": [
+          { "label": "The problem", "text": "A fictional student wanted to see what a carried ten looks like." },
+          { "label": "What I made", "text": "A small on-page sum. The numbers change when you press the buttons." },
+          { "label": "How it's used", "text": "Click through it to confirm the template's demo still runs." }
+        ],
+        "demo": {
+          "type": "carryover",
+          "title": "Try a carry-the-one sum",
+          "badge": "sample demo"
+        }
+      },
+      {
+        "title": "Example Planner",
+        "status": "In progress",
+        "statusKind": "prog",
+        "facts": [
+          { "label": "The problem", "text": "Sample borrowers cannot see how a made-up extra payment changes a made-up total." },
+          { "label": "What I made", "text": "A planner that exists only as this card. No calculator is wired up." },
+          { "label": "How it's used", "text": "It keeps the project grid at four cards, which is what the layout expects." }
+        ]
+      },
+      {
+        "title": "Study Notes Bot",
+        "status": "Planned",
+        "statusKind": "",
+        "facts": [
+          { "label": "The problem", "text": "Flipping through fictional notes is slow." },
+          { "label": "What I'll make", "text": "A question box over sample notes. It is planned, not built." },
+          { "label": "How it'll be used", "text": "The labels on this card are different on purpose, so a planned project can use future tense." }
+        ]
+      }
+    ]
+  },
+  "beyond": {
+    "kicker": "Beyond work",
+    "title": "Off the clock",
+    "items": [
+      { "icon": "// music", "title": "Ukulele", "text": "Alex is learning four chords. This hobby was invented for the sample." },
+      { "icon": "// rides", "title": "Illustrated rides", "text": "Two poster drawings stand in for photographs: Glass Lake and Red Canyon." },
+      { "icon": "// court", "title": "Table tennis", "text": "A placeholder sport. Swap the title and sentence for your own." },
+      { "icon": "// home", "title": "Window herbs", "text": "Basil in a fictional kitchen window. Not a real garden." },
+      { "icon": "// follow", "title": "Maps and puzzles", "text": "Paper maps, crossword books, and other sample interests." },
+      { "icon": "// follow", "title": "Sketching", "text": "Ballpoint drawings of cups and chairs. Still fictional." }
+    ]
+  },
+  "experience": {
+    "kicker": "Experience",
+    "title": "Where I've worked",
+    "lede": "Newest first. Every employer below is fictional.",
+    "items": [
+      { "years": "2019 — present", "title": "Northwind Labs", "detail": "Example lead since Mar 2022; sample lead from Jun 2019. Example City." },
+      { "years": "2016 — 2019", "title": "Contoso Exchange", "detail": "Senior example engineer. Sample Harbor." },
+      { "years": "2015 — 2016", "title": "Independent sample work", "detail": "May 2015 – Feb 2016." },
+      { "years": "2011 — 2015", "title": "Fabrikam Geometry", "detail": "Senior example engineer, paired with a fictional partner team." },
+      { "years": "2008 — 2011", "title": "Adventure Works", "detail": "Systems example." }
+    ],
+    "note": "This footnote is sample text so the timeline can show an optional note."
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Let's talk",
+    "text": "These links point at example.com only. Replace them in your content file before you publish.",
+    "links": [
+      { "label": "Email", "href": "mailto:alex.sample@example.com", "short": "alex.sample@example.com" },
+      { "label": "LinkedIn", "href": "https://example.com/in/alex-sample", "short": "in/alex-sample" },
+      { "label": "GitHub", "href": "https://example.com/alex-sample", "short": "example/alex-sample" },
+      { "label": "X", "href": "https://example.com/alexsample", "short": "@alexsample" }
+    ]
+  },
+  "trips": [
+    {
+      "type": "image",
+      "src": "glass-lake.jpg",
+      "alt": "Flat illustration of a blue lake and an orange sun, labeled GLASS LAKE SAMPLE",
+      "caption": "Glass Lake, 2024",
+      "trip": "Glass Lake Loop",
+      "year": 2024
+    },
+    {
+      "type": "image",
+      "src": "red-canyon.jpg",
+      "alt": "Flat illustration of a red canyon and a teal river, labeled RED CANYON SAMPLE",
+      "caption": "Red Canyon, 2019",
+      "trip": "Red Canyon",
+      "year": 2019
+    }
+  ]
+}

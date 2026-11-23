@@ -1,0 +1,15 @@
+{
+  "name": "personal-site-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static personal-site template. Sample data is fictional. Real content is pulled from a private repository at build time.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "test": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
