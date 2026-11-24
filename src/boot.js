@@ -1,0 +1,1 @@
+(function(){try{var k=document.documentElement.dataset.themeKey||'site-theme';var t=localStorage.getItem(k);if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;}catch(e){document.documentElement.dataset.theme='dark';}})();
